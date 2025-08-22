@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Claudia Angeles Gonzalez | Desarrolladora Front-End</title>
+    <meta name="description" content="Portafolio de Claudia Ángeles González, desarrolladora front-end especializada en crear experiencias web excepcionales">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-spinner"></div>
+    </div>
+
+    <!-- Header Flotante -->
+    <header>
+        <div class="header-container">
+            <a href="#hero" class="logo">CAG</a>
+            <nav>
+                <ul id="menu">
+                    <li><a href="#sobre-mi" data-text="Sobre mí">Sobre mí</a></li>
+                    <li><a href="#habilidades" data-text="Habilidades">Habilidades</a></li>
+                    <li><a href="#proyectos" data-text="Proyectos">Proyectos</a></li>
+                    <li><a href="#contacto" data-text="Contacto">Contacto</a></li>
+                </ul>
+                <button id="menu-toggle" aria-label="Abrir menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Fullscreen -->
+    <section id="hero">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        
+        <div class="hero-container">
+            <h1 class="hero-title">Claudia Ángeles González</h1>
+            <p class="tagline">Desarrolladora Front-End</p>
+            <p class="tagline-sub">Creando experiencias digitales excepcionales con código elegante</p>
+            <a href="#proyectos" class="btn-hero">Descubre mi trabajo</a>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="line"></div>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <main>
+        <!-- Sobre mí -->
+        <section id="sobre-mi">
+            <div class="section-header">
+                <h2>Sobre mí</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Soy desarrolladora front-end apasionada por crear interfaces limpias, funcionales y responsivas. Mi enfoque combina el diseño estético con la eficiencia del código para ofrecer experiencias de usuario excepcionales.</p>
+                    <p>Me mantengo en constante aprendizaje de las últimas tecnologías y tendencias en desarrollo web, siempre buscando superar mis límites y crear soluciones innovadoras.</p>
+                    <div class="about-cta">
+                        <a href="#contacto" class="btn-primary">Contáctame</a>
+                        <a href="#" class="btn-secondary">Descargar CV</a>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section id="habilidades">
+            <div class="section-header">
+                <h2>Habilidades</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="skills-container">
+                <div class="skill">
+                    <div class="skill-header">
+                        <span>HTML</span>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="90%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-header">
+                        <span>CSS</span>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="85%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-header">
+                        <span>JavaScript</span>
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="75%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-header">
+                        <span>PHP</span>
+                        <span class="skill-percentage">70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="70%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section id="proyectos">
+            <div class="section-header">
+                <h2>Proyectos</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="app">Apps</button>
+                <button class="filter-btn" data-filter="php">PHP</button>
+            </div>
+            <div class="projects-container">
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="./images/project-1.png" alt="Portafolio Web Personal">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                <a href="https://github.com/claudiaangeles/portfolio" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Portafolio Web Personal</h3>
+                        <p>Portafolio responsivo para mostrar CV y proyectos.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="app">
+                    <div class="project-image">
+                        <img src="./images/project-2.png" alt="To-Do App">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                <a href="https://github.com/claudiaangeles/todo-app" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>To-Do App</h3>
+                        <p>Gestor de tareas con CRUD y validaciones.</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>SQL</span>
+                            <span>JS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="php">
+                    <div class="project-image">
+                        <img src="./images/project-3.png" alt="Mini Blog con Login">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                <a href="https://github.com/claudiaangeles/blog-app" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Mini Blog</h3>
+                        <p>Sistema de publicación de artículos con autenticación.</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>JS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto">
+            <div class="section-header">
+                <h2>Contacto</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-content">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Enviar mensaje</button>
+                    <p id="form-msg"></p>
+                </form>
+                <div class="contact-social">
+                    <p>Conecta conmigo:</p>
+                    <div class="social-links">
+                        <a href="https://github.com/claudiaangeles" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/claudiaangeles" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="mailto:claudia@example.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p>© 2025 Claudia Ángeles González. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="#proyectos">Proyectos</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <span id="close-modal" class="close-modal">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="modal-caption"></div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
