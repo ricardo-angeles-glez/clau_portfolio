@@ -88,11 +88,15 @@ header {
 }
 
 .logo {
-    font-size: 1.8rem;
-    font-weight: 800;
-    color: var(--primary-color);
+    display: flex;
+    align-items: center;
     text-decoration: none;
-    transition: var(--transition);
+    transition: transform 0.3s ease;
+}
+
+.logo img {
+    height: 50px; /* Ajusta según el alto de tu header */
+    width: auto;
 }
 
 .logo:hover {
